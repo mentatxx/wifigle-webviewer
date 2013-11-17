@@ -1,0 +1,11 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.hidden-sm {
+    
+}
+
+.btn.hidden-sm {
+  display: inline-block!important;
+}

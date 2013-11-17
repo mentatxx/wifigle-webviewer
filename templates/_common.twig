@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{{ seo.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="{{ seo.keywords }}"/>
+    <meta name="description" content="{{ seo.description }}"/>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/custom.css" type="text/css">
+        
+    <!-- JS -->
+    <script src="/js/jquery-2.0.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+{% block body %}
+<!--    
+<div class="page-header">
+  <h1>Wifigle <small>карта Wi-Fi точек</small></h1>
+</div>    
+-->
+  {% block content %}
+  {% endblock %}
+{% endblock %}
+</body>
+</html>
+
